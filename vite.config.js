@@ -8,5 +8,5 @@ export default defineConfig({
     host: '0.0.0.0', // 네트워크 접근 허용
   },
   // Vite의 base 설정을 배포 경로와 맞춤
-  base: process.env.NODE_ENV === 'production' ? '/react_shoppingmall/' : '/',
+  base: '/react_shoppingmall/',
 });
