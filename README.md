@@ -50,60 +50,34 @@ React와 상태 관리를 활용하여 사용자 친화적인 쇼핑몰 플랫�
 
 ## 🗂️ 폴더 구조
 
-src/ ├── components/ # 공통 컴포넌트 ├── pages/ # 주요 페이지 ├── context/ # 상태 관리 (CartContext) ├── assets/ # CSS 및 이미지 파일 ├── utils/ # 유틸리티 함수 └── App.js # 메인 엔트리 포인트
+src/ 
+├── components/ # 공통 컴포넌트 
+├── pages/ # 주요 페이지 
+├── context/ # 상태 관리 (CartContext) 
+├── assets/ # CSS 및 이미지 파일 
+├── utils/ # 유틸리티 함수 
+└── App.js # 메인 엔트리 포인트
 
-yaml
-코드 복사
 
 ---
 
-## 🚀 설치 및 실행
+## 🚀 주요 기능
+- 상품 관리 : 상품 목록 조회, 검색 및 필터링.
+- 장바구니 관리 : 상품 추가/삭제, 수량 조정, 총합 계산.
+- 사용자 관리 :  로그인, 로그아웃 및 세션 유지.
+- 페이지네이션 : 페이지 이동 및 동적 버튼 생성.
 
-1. **리포지토리 클론**
-   ```bash
-   git clone https://github.com/your-repo-name/react_shoppingmall.git
-   cd react_shoppingmall
-의존성 설치
+## 기술 스택 
+- React, React Router, Context API, Styled-components.
+- DummyJSON API 활용.
 
-bash
-코드 복사
-npm install
-개발 서버 실행
-
-bash
-코드 복사
-npm start
-📈 프로젝트 기획서
-프로젝트 이름
-React 기반 쇼핑몰 플랫폼
-
-주요 기능
-상품 관리
-상품 목록 조회, 검색 및 필터링.
-장바구니 관리
-상품 추가/삭제, 수량 조정, 총합 계산.
-사용자 관리
-로그인, 로그아웃 및 세션 유지.
-페이지네이션
-페이지 이동 및 동적 버튼 생성.
-기술 스택
-React, React Router, Context API, Styled-components.
-DummyJSON API 활용.
-개발 일정
-1주차: 요구 사항 분석 및 초기 설계.
-2주차: 상품 관리 기능 개발.
-3주차: 장바구니 및 사용자 관리 기능 구현.
-4주차: 페이지네이션 및 최적화.
-5주차: 테스트 및 배포.
-🏆 개선 사항 및 느낀 점
-개선 사항
-카트에 추가된 상품 데이터와 API 동기화.
-결제 모듈 추가로 실제 쇼핑몰 기능 확장 가능.
-느낀 점
-React의 상태 관리(Context API)와 컴포넌트 구조 설계에 대한 깊은 이해를 쌓음.
-API 연동과 페이지네이션 개발을 통해 동적 웹 애플리케이션 개발에 자신감이 생김.
-코드 복사
-
+## 🏆 개선 사항 및 느낀 점
+- 개선 사항
+   - 카트에 추가된 상품 데이터와 API 동기화.
+   - 결제 모듈 추가로 실제 쇼핑몰 기능 확장 가능.
+- 느낀 점
+   - React의 상태 관리(Context API)와 컴포넌트 구조 설계에 대한 깊은 이해를 쌓음.
+   - API 연동과 페이지네이션 개발을 통해 동적 웹 애플리케이션 개발에 자신감이 생김.
 
 
 
